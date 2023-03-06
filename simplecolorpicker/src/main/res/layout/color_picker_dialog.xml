@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.google.android.material.slider.Slider
+        android:id="@+id/colorPicker_slider"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/colorPicker_slider_margin"
+        android:stepSize="100"
+        android:value="500"
+        android:valueFrom="100"
+        android:valueTo="900"
+        app:labelBehavior="gone"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/colorPicker_gridView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/colorPicker_slider"
+        android:layout_marginStart="@dimen/colorPicker_recycleView_horizontalMargin"
+        android:layout_marginEnd="@dimen/colorPicker_recycleView_horizontalMargin"
+        app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+        app:spanCount="5"
+        tools:listitem="@layout/color_picker_adapter" />
+</RelativeLayout>

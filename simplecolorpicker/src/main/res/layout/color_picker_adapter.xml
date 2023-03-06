@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/colorPicker_CardView"
+    android:layout_width="@dimen/colorPicker_cardSize"
+    android:layout_height="@dimen/colorPicker_cardSize"
+    android:layout_margin="@dimen/colorPicker_cardMargin"
+    app:cardCornerRadius="@dimen/colorPicker_cardRadius"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:clickable="true"
+    android:focusable="true"/>
