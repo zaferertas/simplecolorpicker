@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Simple Color Picker Demo</string>
+    <string name="show_color_picker">Show color picker</string>
+</resources>

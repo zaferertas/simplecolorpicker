@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="colorPicker_cardSize">48dp</dimen>
+    <dimen name="colorPicker_cardRadius">24dp</dimen>
+    <dimen name="colorPicker_cardMargin">6dp</dimen>
+    <dimen name="colorPicker_slider_margin">10dp</dimen>
+    <dimen name="colorPicker_recycleView_horizontalMargin">12dp</dimen>
+</resources>
